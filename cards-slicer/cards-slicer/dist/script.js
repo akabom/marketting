@@ -42,7 +42,7 @@
 
     room[0].bg_0 = new MG.Background({
       src:
-      "https://raw.githubusercontent.com/elsemeow/cdn/main/img/cdpn/poLerLQ/bg-0.png",
+      "https://cutewallpaper.org/25/animated-wallpaper-neon-city-with-rain/neon-city-rain-drops-shape-your-computer-beautifully.gif",
       sW: 800,
       sH: 448,
       pos: surface.pos("mc"),
@@ -53,7 +53,7 @@
 
     room[0].bg_1 = new MG.Background({
       src:
-      "https://raw.githubusercontent.com/elsemeow/cdn/main/img/cdpn/poLerLQ/bg-1.png",
+      "https://cutewallpaper.org/25/animated-wallpaper-neon-city-with-rain/neon-city-rain-drops-shape-your-computer-beautifully.gif",
       sW: 800,
       sH: 448,
       pos: surface.pos("mc"),
@@ -295,7 +295,7 @@
 
       new MG.Sprite({
         src:
-        "https://raw.githubusercontent.com/elsemeow/cdn/main/img/cdpn/poLerLQ/card.png",
+        "https://sv1.picz.in.th/images/2022/07/27/X3wsPt.jpg",
         ix: 0,
         iy: 0,
         sW: 180,
