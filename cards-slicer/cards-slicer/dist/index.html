@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cards Slicer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Rubik+Glitch&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas id="surface"></canvas>
+
+<section class="overlay" id="start_menu">
+  <div class="card">
+    <h1>Cards Slicer</h1>
+    <p>Move mouse to <b class="mark">aim</b>, click to <b class="mark">cut</b></p>
+    <button class="btn" id="start">Start</button>
+  </div>
+</section>
+
+<section class="overlay overlay_disabled" id="restart_menu">
+  <div class="card">
+    <h1>Time is up</h1>
+    <p>Total score: <b class="mark" id="score"></b></p>
+    <button class="btn" id="restart">Try again</button>
+  </div>
+</section>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/gh/elsemeow/meowgine@2.2.2-alpha/dist/meowgine.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/sat/0.9.0/SAT.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
